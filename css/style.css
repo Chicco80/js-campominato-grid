@@ -1,4 +1,15 @@
-.container{
-    background-color: aquamarine;
-    height: 100vh;
+body{
+    background-color: aqua;
+}
+
+#app .col{
+   border: 1px solid black;
+  
+   
+ 
+}
+
+.box{
+    width: 10%;
+    height: 100px;
 }
