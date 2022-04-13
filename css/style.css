@@ -1,15 +1,35 @@
-body{
-    background-color: aqua;
+main{
+    height: calc(100vh - 130px);
+    background-color: aquamarine;
+    min-height: 500px;
+    overflow-y: auto;
 }
 
-#app .col{
-   border: 1px solid black;
+header{
+    height: 80px;
+}
+
+footer{
+    border:1px solid black;
+    height: 50px;
+
+}
+
+.gridrow{
+    width: 500px;
+    height:500px;
+    display: flex;
+    flex-wrap:wrap;
   
-   
- 
 }
 
 .box{
-    width: 10%;
-    height: 100px;
+    /* width: calc(100% / 10);
+    height:calc(100% / 10); */
+    border:1px solid black;
+    
+
+}
+.puntatore{
+    cursor:pointer;
 }
